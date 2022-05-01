@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Market Ninja Fruit</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <section class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Vfruit.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="right-bar">
+                        <div class="object">
+                            <div class="sword">
+                                <span>5</span>
+                                <img src="img/Sword.svg" alt="">
+                            </div>
+                            <div class="coin">
+                                <span>123</span>
+                                <img src="img/Coin.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="wallet">
+                            <a href="">
+                                <img src="img/Wallet.svg" alt="">
+                                <p>Connect Wallet</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="main">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="myaccount-tab" data-bs-toggle="tab" data-bs-target="#myaccount" type="button" role="tab" aria-controls="myaccount" aria-selected="true">My Account</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="market-tab" data-bs-toggle="tab" data-bs-target="#market" type="button" role="tab" aria-controls="market" aria-selected="false">Market</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="staking-tab" data-bs-toggle="tab" data-bs-target="#staking" type="button" role="tab" aria-controls="staking" aria-selected="false">Staking</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tokensale-tab" data-bs-toggle="tab" data-bs-target="#tokensale" type="button" role="tab" aria-controls="tokensale" aria-selected="false">Token Sale</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="boxsale-tab" data-bs-toggle="tab" data-bs-target="#boxsale" type="button" role="tab" aria-controls="boxsale" aria-selected="false">Box Sale</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade" id="myaccount" role="tabpanel" aria-labelledby="myaccount-tab"></div>
+                <div class="tab-pane fade show active" id="market" role="tabpanel" aria-labelledby="market-tab">
+                    <div class="container-fluid">
+                        <div class="display-stuff">
+                            <div class="tab-filter">
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-owner-tab" data-bs-toggle="pill" data-bs-target="#pills-owner" type="button" role="tab" aria-controls="pills-owner" aria-selected="false">Owned</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                                    <h1>All Tab</h1>
+                                </div>
+                                <div class="tab-pane fade show active" id="pills-owner" role="tabpanel" aria-labelledby="pills-owner-tab">
+                                    <div class="container-fluid owner-content">
+                                        <div class="filter">
+                                            <div class="type">
+                                                <p>Type</p>
+                                                <div class="row row-cols-2">
+                                                    <div class="col">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                            <label class="form-check-label" for="inlineCheckbox1">Normal</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                            <label class="form-check-label" for="inlineCheckbox1">Rare</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                            <label class="form-check-label" for="inlineCheckbox1">Legend</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                            <label class="form-check-label" for="inlineCheckbox1">Epic</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                            <label class="form-check-label" for="inlineCheckbox1">Mystic</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sort">
+                                                <p>Sort</p>
+                                                <div class="row row-cols-1">
+                                                    <div class="col">
+                                                        <div class="form-check">
+                                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                                Price
+                                                            </label>
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check">
+                                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                                Time List
+                                                            </label>
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check">
+                                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                                Bonus
+                                                            </label>
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <div class="row row-cols-5 justify-content-md-center">
+                                                <div class="col">
+                                                    <div class="card">
+                                                        <img src="img/1.svg" class="card-img-top" alt="...">
+                                                        <div class="card-body">
+                                                            <p class="card-text">
+                                                                <span>Rarity</span>
+                                                                <span>Normal</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Bonus</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Id</span>
+                                                                <span>035D4FG</span>
+                                                            </p>
+                                                            <p class="card-text price">
+                                                                <span>Price</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10 + <img style="width: 12px; margin-top: -3px;" src="img/Coin.svg" alt=""></span>
+                                                            </p>
+                                                            <div class="purchase-btn">
+                                                                <a href="#" class="btn btn-primary">Purchase</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="card">
+                                                        <img src="img/2.svg" class="card-img-top" alt="...">
+                                                        <div class="card-body">
+                                                            <p class="card-text">
+                                                                <span>Rarity</span>
+                                                                <span>Rare</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Bonus</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Id</span>
+                                                                <span>035D4FG</span>
+                                                            </p>
+                                                            <p class="card-text price">
+                                                                <span>Price</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10 + <img style="width: 12px; margin-top: -3px;" src="img/Coin.svg" alt=""></span>
+                                                            </p>
+                                                            <div class="purchase-btn">
+                                                                <a href="#" class="btn btn-primary">Purchase</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="card">
+                                                        <img src="img/3.svg" class="card-img-top" alt="...">
+                                                        <div class="card-body">
+                                                            <p class="card-text">
+                                                                <span>Rarity</span>
+                                                                <span>Epic</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Bonus</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Id</span>
+                                                                <span>035D4FG</span>
+                                                            </p>
+                                                            <p class="card-text price">
+                                                                <span>Price</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10 + <img style="width: 12px; margin-top: -3px;" src="img/Coin.svg" alt=""></span>
+                                                            </p>
+                                                            <div class="purchase-btn">
+                                                                <a href="#" class="btn btn-primary">Purchase</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="card">
+                                                        <img src="img/1.svg" class="card-img-top" alt="...">
+                                                        <div class="card-body">
+                                                            <p class="card-text">
+                                                                <span>Rarity</span>
+                                                                <span>Rare</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Bonus</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Id</span>
+                                                                <span>035D4FG</span>
+                                                            </p>
+                                                            <p class="card-text price">
+                                                                <span>Price</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10 + <img style="width: 12px; margin-top: -3px;" src="img/Coin.svg" alt=""></span>
+                                                            </p>
+                                                            <div class="purchase-btn">
+                                                                <a href="#" class="btn btn-primary">Purchase</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="card">
+                                                        <img src="img/4.svg" class="card-img-top" alt="...">
+                                                        <div class="card-body">
+                                                            <p class="card-text">
+                                                                <span>Rarity</span>
+                                                                <span>Legend</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Bonus</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Id</span>
+                                                                <span>035D4FG</span>
+                                                            </p>
+                                                            <p class="card-text price">
+                                                                <span>Price</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10 + <img style="width: 12px; margin-top: -3px;" src="img/Coin.svg" alt=""></span>
+                                                            </p>
+                                                            <div class="purchase-btn">
+                                                                <a href="#" class="btn btn-primary">Purchase</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="card">
+                                                        <img src="img/2.svg" class="card-img-top" alt="...">
+                                                        <div class="card-body">
+                                                            <p class="card-text">
+                                                                <span>Rarity</span>
+                                                                <span>Normal</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Bonus</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Id</span>
+                                                                <span>035D4FG</span>
+                                                            </p>
+                                                            <p class="card-text price">
+                                                                <span>Price</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10 + <img style="width: 12px; margin-top: -3px;" src="img/Coin.svg" alt=""></span>
+                                                            </p>
+                                                            <div class="purchase-btn">
+                                                                <a href="#" class="btn btn-primary">Purchase</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="card">
+                                                        <img src="img/4.svg" class="card-img-top" alt="...">
+                                                        <div class="card-body">
+                                                            <p class="card-text">
+                                                                <span>Rarity</span>
+                                                                <span>Normal</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Bonus</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Id</span>
+                                                                <span>035D4FG</span>
+                                                            </p>
+                                                            <p class="card-text price">
+                                                                <span>Price</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10 + <img style="width: 12px; margin-top: -3px;" src="img/Coin.svg" alt=""></span>
+                                                            </p>
+                                                            <div class="purchase-btn">
+                                                                <a href="#" class="btn btn-primary">Purchase</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="card">
+                                                        <img src="img/1.svg" class="card-img-top" alt="...">
+                                                        <div class="card-body">
+                                                            <p class="card-text">
+                                                                <span>Rarity</span>
+                                                                <span>Normal</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Bonus</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10</span>
+                                                            </p>
+                                                            <p class="card-text">
+                                                                <span>Id</span>
+                                                                <span>035D4FG</span>
+                                                            </p>
+                                                            <p class="card-text price">
+                                                                <span>Price</span>
+                                                                <span style="font-family: 'utm-avo-bold';">10 + <img style="width: 12px; margin-top: -3px;" src="img/Coin.svg" alt=""></span>
+                                                            </p>
+                                                            <div class="purchase-btn">
+                                                                <a href="#" class="btn btn-primary">Purchase</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pagination-layout">
+                                                <nav aria-label="Page navigation example">
+                                                    <ul class="pagination justify-content-center">
+                                                        <li class="page-item">
+                                                            <a class="page-link" href="#" aria-label="Previous">
+                                                                <span aria-hidden="true" style="color: #fff;">&lt;&lt;</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-item">
+                                                            <a class="page-link" href="#" aria-label="Previous">
+                                                                <span aria-hidden="true" style="color: #fff;">&lt;</span>
+                                                            </a>
+                                                        </li>
+                                                        <ul class="pagination-child pagination justify-content-center">
+                                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                                        </ul>
+                                                        <li class="page-item">
+                                                            <a class="page-link" href="#" aria-label="Next">
+                                                                <span aria-hidden="true" style="color: #fff;">&gt;</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-item">
+                                                            <a class="page-link" href="#" aria-label="Next">
+                                                                <span aria-hidden="true" style="color: #fff;">&gt;&gt;</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="staking" role="tabpanel" aria-labelledby="staking-tab"></div>
+                <div class="tab-pane fade" id="tokensale" role="tabpanel" aria-labelledby="tokensale-tab"></div>
+                <div class="tab-pane fade" id="boxsale" role="tabpanel" aria-labelledby="boxsale-tab"></div>
+            </div>
+        </section>
+        <section class="footer"></section>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

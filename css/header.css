@@ -1,0 +1,70 @@
+.header {
+    width: 100%;
+}
+
+.header nav {
+    padding: 12px 30px;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.collapse.navbar-collapse {
+    padding: 0 30px;
+}
+
+.right-bar {
+    width: 100%;
+    background-color: #135394;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.object {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.object div {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.object div span {
+    width: 100px;
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    color: #135394;
+    font-family: 'utm-avo';
+}
+
+.object div img {
+    width: 22px;
+    margin-left: 5px;
+}
+
+.wallet a {
+    text-decoration: none;
+    color: #09672f;
+    font-family: 'utm-avo-bold';
+    font-size: 18px;
+    position: relative;
+}
+
+.wallet a img {
+    width: 180px;
+}
+
+.wallet a p {
+    position: absolute;
+    top: 10%;
+    left: 18px;
+}
