@@ -3,7 +3,7 @@
 }
 
 .nav.nav-tabs {
-    margin: 50px 0 0 0;
+    margin: 50px 0 -1px 0;
     padding: 0 60px;
     border-color: #135394;
 }
@@ -11,6 +11,8 @@
 .nav-tabs .nav-link {
     color: #c4c5c8 !important;
     font-family: 'utm-avo' !important;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .nav-link.active {
@@ -104,6 +106,9 @@
 .filter .type .row .col .form-check-input {
     border: 2px solid #0bcf5a;
     background-color: rgb(14, 14, 14);
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 4px;
 }
 
 .filter .type .row .col .form-check-input:checked {
@@ -116,6 +121,7 @@
 }
 
 .filter .sort .row .col .form-check {
+    width: 220px;
     padding-left: 12px;
 }
 
@@ -123,6 +129,8 @@
     float: right;
     border: 2px solid #0bcf5a;
     background-color: rgb(14, 14, 14);
+    width: 1.2em;
+    height: 1.2em;
 }
 
 .filter .sort .row .col .form-check-input:checked[type=radio] {
@@ -143,6 +151,10 @@
     margin: 0 0 15px 0;
 }
 
+.tab-pane .owner-content .type .row .col:nth-child(2n) {
+    padding-left: 18px;
+}
+
 .card {
     background-color: transparent !important;
     border: none !important;
@@ -152,11 +164,71 @@
     position: relative;
 }
 
+.card-img-top div {
+    width: 100%;
+}
+
+.rectangle {
+    width: 100%;
+}
+
+.ownd {
+    width: 48.48px;
+    position: absolute;
+    left: 2px;
+}
+
+.time {
+    width: 49.7px;
+    position: absolute;
+    right: 1px;
+    top: 15px;
+    z-index: 2;
+}
+
+.card-img-top div span {
+    font-family: 'utm-avo-bold';
+    font-size: 8px;
+    color: #f9da31;
+    position: absolute;
+    right: 6px;
+    z-index: 4;
+}
+
+.time-text {
+    top: 16px;
+}
+
+.duration-text {
+    top: 36px;
+}
+
+.duration {
+    width: 49.7px;
+    position: absolute;
+    right: 1px;
+    top: 35px;
+    z-index: 2;
+}
+
+.blad {
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 0;
+}
+
+.blad5 {
+    top: 15px;
+}
+
 .card-body {
     background-color: #222a25;
     margin-top: -10px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 .card-body .card-text {
