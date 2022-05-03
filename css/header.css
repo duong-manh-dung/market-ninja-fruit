@@ -1,5 +1,6 @@
 .header {
     width: 100%;
+    background-color: #fff;
 }
 
 .header nav {
@@ -8,9 +9,10 @@
 
 .navbar-brand img {
     width: 150px;
+    margin-bottom: 15px;
 }
 
-.collapse.navbar-collapse {
+.navbar-collapse {
     padding: 0 30px;
 }
 

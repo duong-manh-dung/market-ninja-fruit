@@ -3,9 +3,11 @@
 }
 
 .nav.nav-tabs {
-    margin: 50px 0 -1px 0;
+    margin: -1px 0 -1px 0;
     padding: 0 60px;
+    padding-top: 50px;
     border-color: #135394;
+    background-color: #fff;
 }
 
 .nav-tabs .nav-link {

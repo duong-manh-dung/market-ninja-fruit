@@ -33,6 +33,15 @@
     src: url('../utm-avo/UTM\ AvoBold.ttf');
 }
 
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    background-color: #135394 !important;
+}
+
 .container-fluid {
     padding: 0 !important;
 }
