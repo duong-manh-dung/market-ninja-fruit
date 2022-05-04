@@ -271,8 +271,6 @@
 }
 
 .btn.btn-primary {
-    padding-left: 20px;
-    padding-right: 20px;
     border-radius: 50px;
     background: -webkit-linear-gradient(45deg, #3a92ea 0%, #3c46f2 50%, #823bfe 100%);
     /* border-color: #fff; */
