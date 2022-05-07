@@ -7,6 +7,9 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Market Ninja Fruit</title>
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/myaccount-tab.css">
+    <link rel="stylesheet" href="css/market-tab.css">
+    <link rel="stylesheet" href="css/boxes-tab.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/master.css">
@@ -21,10 +24,6 @@
                 <a class="navbar-brand" href="#">
                     <img src="img/Vfruit.svg" alt="">
                 </a>
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
-                <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
                 <div class="navbar-collapse" id="navbarSupportedContent">
                     <div class="right-bar">
                         <div class="object">
@@ -66,7 +65,153 @@
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade" id="myaccount" role="tabpanel" aria-labelledby="myaccount-tab"></div>
+                <div class="tab-pane fade" id="myaccount" role="tabpanel" aria-labelledby="myaccount-tab">
+                    <div class="container-fluid">
+                        <div class="display-transaction">
+                            <div class="container-fluid myaccount-content">
+                                <div class="filter-content">
+                                    <p>Filter</p>
+                                    <div class="row row-cols-1">
+                                        <div class="col">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                <label class="form-check-label" for="inlineCheckbox1">Nạp / Rút</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                <label class="form-check-label" for="inlineCheckbox1">Mua / Bán</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                <label class="form-check-label" for="inlineCheckbox1">Time</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                <label class="form-check-label" for="inlineCheckbox1">Rewards</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                <label class="form-check-label" for="inlineCheckbox1">Play</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blank" style="height: 300px;"></div>
+                                </div>
+                                <div class="list-transaction">
+                                    <div class="list-transaction-title">
+                                        <p>List Transaction</p>
+                                    </div>
+                                    <div class="transaction-table">
+                                        <table class="table table-bordered border-light">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" style="background-color: #00aeef;">Người Chuyển</th>
+                                                    <th scope="col" style="background-color: #00aeef;">Người Nhận</th>
+                                                    <th scope="col" style="background-color: #ef3800;">Loại Giao Dịch</th>
+                                                    <th scope="col" style="background-color: #ef7600;">Số Token</th>
+                                                    <th scope="col" style="background-color: #00ef2d;">Loại Token</th>
+                                                    <th scope="col" style="background-color: #ae00ef;">Thời Gian</th>
+                                                    <th scope="col" style="background-color: #00aeef;">Trạng Thái</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody style="text-align: center; color: #fff; font-family: 'utm-avo';">
+                                                <tr>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                    <td>lorisium</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="tab-pane fade show active" id="market" role="tabpanel" aria-labelledby="market-tab">
                     <div class="container-fluid">
                         <div class="display-stuff">
@@ -128,24 +273,24 @@
                                                     <div class="col">
                                                         <div class="form-check">
                                                             <label class="form-check-label" for="flexRadioDefault1">
-                                                                Price
-                                                            </label>
+                                Price
+                              </label>
                                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
                                                         </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="form-check">
                                                             <label class="form-check-label" for="flexRadioDefault1">
-                                                                Time List
-                                                            </label>
+                                Time List
+                              </label>
                                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                                                         </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="form-check">
                                                             <label class="form-check-label" for="flexRadioDefault1">
-                                                                Bonus
-                                                            </label>
+                                Bonus
+                              </label>
                                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                                                         </div>
                                                     </div>
@@ -484,9 +629,546 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="staking" role="tabpanel" aria-labelledby="staking-tab"></div>
-                <div class="tab-pane fade" id="tokensale" role="tabpanel" aria-labelledby="tokensale-tab"></div>
-                <div class="tab-pane fade" id="boxsale" role="tabpanel" aria-labelledby="boxsale-tab"></div>
+                <div class="tab-pane fade boxes" id="staking" role="tabpanel" aria-labelledby="staking-tab">
+                    <div class="container-fluid">
+                        <div class="boxes-content">
+                            <div class="container">
+                                <div class="row row-cols-3 justify-content-md-center">
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade boxes" id="tokensale" role="tabpanel" aria-labelledby="tokensale-tab">
+                    <div class="container-fluid">
+                        <div class="boxes-content">
+                            <div class="container">
+                                <div class="row row-cols-3 justify-content-md-center">
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/vfruit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade boxes" id="boxsale" role="tabpanel" aria-labelledby="boxsale-tab">
+                    <div class="container-fluid">
+                        <div class="boxes-content">
+                            <div class="container">
+                                <div class="row row-cols-3 justify-content-md-center">
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/gift-green.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/gift-blue.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/gift/gift-pink.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="v-coin">
+                                                    <img src="img/Coin.svg" alt="">
+                                                </div>
+                                                <h5 class="card-title">Lorem Ipsum</h5>
+                                                <p class="card-sub-title">Lorem Ipsum</p>
+                                                <div class="card-box-detail">
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorem Ipsum</p>
+                                                        <p>Lorem Ipsum</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><img src="img/Coin.svg" alt=""> 0.001 Vcoin</p>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="">
+                                                    <img src="img/Registration.svg" alt="">
+                                                    <span>Registration start in: 10 days</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="footer">
